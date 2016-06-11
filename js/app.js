@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    setBindings();
+    alert("hi") 
 };
 
 function setBindings(){
     $("nav a").click(function(e){
-       alert("hi") 
+       
     });
 }
