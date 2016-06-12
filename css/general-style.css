@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 html, body{
@@ -139,7 +139,7 @@ margin-top: 60px;
 }
 
 .sectThree{
-    background-image: url("../images/bg1.jpg");
+    background-image: url("../images/bg1.png");
 }
 
 .sectFour{
@@ -182,3 +182,72 @@ input{
     margin: 0 ;
 }
 
+#aboutSection h4{
+    margin: 40px 0;
+}
+
+#aboutSection h5{
+    font-size: 30px;
+}
+
+.cubes{
+    padding: 40px 40px;
+    min-height: 250px;
+}
+
+.t1{
+   border-bottom: 1px solid #e2e2e2;
+   border-right: 1px solid #e2e2e2;
+}
+
+.t2{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.t3{
+    border-right: 1px solid #e2e2e2;
+}
+
+.t4{
+    border-right: 1px solid #e2e2e2;
+}
+.t5{
+    border-right: 1px solid #e2e2e2;
+}
+
+.textfield{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.button{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 460px;
+    margin-top: 15px;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+textarea{
+    width: 460px;
+    height: 200px;
+    background-color: black;
+    resize: none;
+    color: #fff;
+    margin-top: -20px;
+    padding: 20px 20px;
+}
+
+#contactSection h5{
+    margin-top: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 40px;
+}

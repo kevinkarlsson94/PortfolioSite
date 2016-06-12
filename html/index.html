@@ -18,7 +18,7 @@
         
         <link rel="stylesheet" href="../css/general-style.css" type="text/css">
         
-        <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One|Muli' rel='stylesheet' type='text/css'>
         
         <link href="../css/hover.css" type="text/css" rel="stylesheet">
         
@@ -29,10 +29,11 @@
         <nav>
             <img src="../images/new-logo.png">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id="home" href="#homeSection">Home</a></li>
+                <li><a id="goals" href="#goalsSection">Goals</a></li>
+                <li><a id="portfolio" href="#portfolioSection">Portfolio</a></li>
+                <li><a id="about" href="#aboutSection">Education</a></li>
+                <li><a id="contact" href="#contactSection">Contact</a></li>
             </ul>
         </nav>
         
@@ -61,7 +62,7 @@
             
         </div>
         
-        <div class="subSection">
+        <div class="subSection" id="goalsSection">
             
             <div class="col-md-4"><img id="profile" src="../images/profile_img.jpeg"></div>
             <div class="col-md-8">            
@@ -70,18 +71,18 @@
             
         </div>
         
-        <div id="aboutSection" class="sect sectTwo"></div>
+        <div class="sect sectTwo"></div>
         
-        <div class="subSection">
+        <div id="portfolioSection" class="subSection">
             <div class="col-md-8">            
                 <h1>Some text</h1>
                 <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p></div>
             <div class="col-md-4"><img src="../images/learn.png"></div>
         </div>
         
-        <div id="workSection" class="sect sectThree"></div>
+        <div class="sect sectThree"></div>
         
-        <div class="subSection">
+        <div id="aboutSection" class="subSection">
             
             <div class="sections">
             <div class="col-md-12">
@@ -89,39 +90,58 @@
                 </div>
                 
                 <div class="row">
-                <div class="col-md-6 t1">
-                    <h5><span class="glyphicon glyphicon-bitcoin"></span>Technical College</h5>
+                <div class="col-md-6 t1 cubes">
+                    <h5><span class="glyphicon glyphicon glyphicon-chevron-up"></span>Technical College</h5>
                     <p>In college I studied a technical line with computing orientation. That included both low-level programming like C++ and high level programming like CNS-machines. The education also focused on the hardware part of the computer. We were for example tasked to build our own PC! </p>
                 </div>
-                <div class="col-md-6 t2">
-                    <h5> <span class="glyphicon glyphicon-certificate"></span>Unrolled University</h5>
+                <div class="col-md-6 t2 cubes">
+                    <h5> <span class="glyphicon glyphicon glyphicon-chevron-up"></span>Unrolled University</h5>
                     <p>I enrolled Örebro University at the System analyst line. The first year consisted of basic knowledge of programming and computing. We also got our first taste of how agile development works.</p>
                 </div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-3 t3">
-                        <h5><span class="glyphicon glyphicon-comment"></span>Feedback</h5>
-                        <p>Are you afraid how the product will look like in real life? Do you wanna know what other people think about a specific product? Our store provides the ability to comment on a specific product. Use it as guidence when deciding what to buy!</p>
+                    <div class="col-md-3 t3 cubes">
+                        <h5><span class="glyphicon glyphicon glyphicon-chevron-up"></span>RUP</h5>
+                        <p>Theories and techiques to collect and manage requirements in an Information System. We learned to use computingbased tools as called CASE-tools to learn how these can make developing and analysis or requirements easier. </p>
                     </div>
-                    <div class="col-md-3 t4">
-                        <h5><span class="glyphicon glyphicon-ok-sign"></span>Payments</h5>
-                        <p>We want you to feel safe when using our store. We intentionally made payments using several different methods possible. Paypal, Mastercard, Bitcoin... you name it!</p>
+                    <div class="col-md-3 t4 cubes">
+                        <h5><span class="glyphicon glyphicon glyphicon-chevron-up"></span>SQL</h5>
+                        <p>This course focused on Transact-SQL to create store procedures, functions, triggers, transactions, views and scripts. We also got a basic knowledge of database security in SQL-Server.</p>
                     </div>
-                    <div class="col-md-3 t5">
-                        <h5><span class="glyphicon glyphicon-hourglass"></span>Delivery time</h5>
-                        <p>Thanks to our close cooperation with UPS are products are delivered with speed! Products are always processed for shipping the next day! All to insure a fast delivery.</p>
+                    <div class="col-md-3 t5 cubes">
+                        <h5><span class="glyphicon glyphicon glyphicon-chevron-up"></span>.NET</h5>
+                        <p>Concentated on creating a dynamic dating website help of Visual Studio .NET using C#. This course focused on ASP.NET, ADO.NET and Web API. Architectual difference between Webforms and MVC-applications were discussed.</p>
                     </div>
-                    <div class="col-md-3 t6">
-                        <h5><span class="glyphicon glyphicon-plus"></span>And more...</h5>
-                        <p>This store was recently opened which means are feautures are not in use right now. More feautures are planned to be released soon. Please hold on!</p>
+                    <div class="col-md-3 t6 cubes">
+                        <h5><span class="glyphicon glyphicon glyphicon-chevron-up"></span>Scrum & Extreme Programming</h5>
+                        <p>This course focused on practical projectwork with elements of teoretical about Scrum and Extreme Programming which where required to aid the task. The practical elements included plannig, forming, implementing, documentnig and presenting an IT-based informationsystem based on requirements and wishes that been established by the project's lifespan.</p>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div id="contactSection" class="sect sectFour"></div>
-    
+        <div class="sect sectFour"></div>
+
+        <div id="contactSection" class="subSection">
+            <div class="col-md-12">            
+                <h5>Contact me</h5>
+                <form>
+                    <div class="row">
+                        <input type="text" class="textfield" placeholder="Name">
+                        <input type="text" class="textfield" placeholder="E-Mail">
+                    </div>
+                    
+                    <div class="row">
+                        <textarea placeholder="Message here..."></textarea>
+                    </div>
+                    <input type="button" class="button" value="Send">
+                    
+                    
+                    
+                </form>
+            </div>
+        </div>
 
         
     </body>
