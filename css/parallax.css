@@ -1,0 +1,120 @@
+.parallax{
+    position: fixed;
+    background: url(../images/leaves.png) no-repeat;
+    z-index: 1;
+    background-size: cover;
+    position: fixed;
+        overflow: hidden;
+}
+#prlx_lyr_1{
+    width: 100px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 10%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#prlx_lyr_2{
+    width: 50px;
+    height: 50px;
+    margin-top: 700px;
+    margin-left: 600px;
+}
+
+
+#prlx_lyr_3{
+    width: 70px;
+    height: 70px;
+    margin-top: 200px;
+    margin-left: 90%;
+}
+
+
+#prlx_lyr_4{
+    width: 40px;
+    height: 40px;
+    margin-top: 800px;
+    margin-left: 50%;  
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+#prlx_lyr_5{
+    width: 60px;
+    height: 60px;
+    margin-top: 900px;
+    margin-left: 80%;    
+}
+
+#prlx_lyr_6{
+    width: 60px;
+    height: 60px;
+    margin-top: 710px;
+    margin-left: 10%;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#prlx_lyr_7{
+    width: 80px;
+    height: 60px;
+    margin-top: 790px;
+    margin-left: 60%; 
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#prlx_lyr_8{
+    width: 60px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: 60%;    
+}
+
+#prlx_lyr_9{
+    width: 97px;
+    height: 97px;
+    margin-top: 200px;
+    margin-left: 90%;    
+}
+
+#prlx_lyr_10{
+    width: 55px;
+    height: 55px;
+    margin-top: 400px;
+    margin-left: 70%;    
+}
+
+
+
+.sectOne{
+    z-index: 0;
+}
+
+.subSection{
+    z-index: 1;
+    position: relative;
+}
+
+
+.sect{
+    position: relative;
+}
