@@ -5,6 +5,7 @@
 
 html, body{
     height: 100%;
+    background-color: #000;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -65,16 +66,14 @@ nav img{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    overflow: auto;
 
 }
 
 .subSection{
     height: auto;
-    min-height: 400px;
-    background-color: #fff;
+    background-color: #000;
     text-align: center;
-    padding-bottom: 80px;
+    min-height: 400px;
 }
 
 .subSection img{
@@ -84,14 +83,18 @@ nav img{
 
 .subSection #profile{
     border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
 }
 
 .subSection p,h1{
-    color: #000;
+    color: #fff;
 }
 
 .subSection h1{
 margin-top: 60px;
+    color: #ff8c00;
 }
 
 .subSection p{
@@ -187,10 +190,16 @@ input{
 
 #aboutSection h4{
     margin: 40px 0;
+    color: #fff;
 }
 
 #aboutSection h5{
     font-size: 30px;
+    color: #ff8c00;
+}
+
+#aboutSection span{
+    color: #fff;
 }
 
 .cubes{
@@ -199,23 +208,23 @@ input{
 }
 
 .t1{
-   border-bottom: 1px solid #e2e2e2;
-   border-right: 1px solid #e2e2e2;
+   border-bottom: 1px solid #262626;
+   border-right: 1px solid #262626;
 }
 
 .t2{
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid #262626;
 }
 
 .t3{
-    border-right: 1px solid #e2e2e2;
+    border-right: 1px solid #262626;
 }
 
 .t4{
-    border-right: 1px solid #e2e2e2;
+    border-right: 1px solid #262626;
 }
 .t5{
-    border-right: 1px solid #e2e2e2;
+    border-right: 1px solid #262626;
 }
 
 .textfield{
@@ -225,15 +234,14 @@ input{
 }
 
 .button{
-    color: #000;
-    background-color: #fff;
-    border: 1px solid black;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
     width: 460px;
     margin-top: 15px;
 }
 
 .button:hover{
-    background-color: #000;
     color: #fff;
 }
 
@@ -245,12 +253,77 @@ textarea{
     color: #fff;
     margin-top: -20px;
     padding: 20px 20px;
+    border: 2px solid #fff;
 }
 
 #contactSection h5{
     margin-top: 40px;
+    color: #ff8c00;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-size: 40px;
 }
+
+h2,h3{
+    color: #ff8c00;
+    margin-top: 50px;
+}
+
+h5{
+    color: #ff8c00;
+    font-size: 24px;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.orangeText{
+    color: #ff8c00 !important;
+}
+
+.portfolio h5{
+    margin-top: 30px;
+}
+
+.box{
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+#portfolioSection{
+    height:auto;
+    overflow: auto;
+}
+
+#goalsSection{
+    height: 500px;
+}
+
+.imgDate{
+    background-image: url(../images/bg1.png);
+    background-size: cover;
+    height: 160px;
+}
+
+.imgTravel{
+    background-image: url(../images/travelapp.png);
+    background-size: cover;
+    height: 160px;
+}
+
+.imgBeg{
+    background-image: url(../images/beg.png);
+    background-size: cover;
+    height: 160px;
+}
+
+.imgDate{
+    background-image: url(../images/dateSite.png);
+    background-size: cover;
+    height: 160px;
+}
+
+
