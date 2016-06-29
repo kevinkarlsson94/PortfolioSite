@@ -304,26 +304,37 @@ h5{
 
 .imgDate{
     background-image: url(../images/bg1.png);
-    background-size: cover;
-    height: 160px;
 }
 
 .imgTravel{
     background-image: url(../images/travelapp.png);
-    background-size: cover;
-    height: 160px;
 }
 
 .imgBeg{
     background-image: url(../images/beg.png);
-    background-size: cover;
-    height: 160px;
 }
 
 .imgDate{
     background-image: url(../images/dateSite.png);
-    background-size: cover;
-    height: 160px;
 }
 
+.imgThis{
+    background-image: url(../images/thissite.png);
+}
 
+.imgOptional{
+    background-image: url(../images/oldportfolio.png);
+}
+
+.imgRestaurant{
+    background-image: url(../images/restaurant%20site.png);
+}
+
+.img{
+    height: 160px;
+    background-size: cover;
+}
+
+.box a{
+    margin-top: 40px;
+}
